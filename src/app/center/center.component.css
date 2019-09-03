@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik+One);
+
+body{
+  position:absolute;
+  width:100%;
+  margin:0px;
+  padding:0px;
+}
+
+.frame{
+  display: grid;
+  margin: 7% auto;
+  position: center;
+  min-height: 500px;
+  width: 70%;
+
+  background: #FFFFFF;
+  border-radius: 22px;
+}
+
+.login{
+  position: center;
+  margin: 5% auto;
+}
+
+.btn-primary{
+  background-color: #FF6B00;
+  border-color: #FF6B00;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus{
+  border-color: #FFFFFF !important;
+  box-shadow: none !important;
+  background-color: #FF6B00 !important;
+
+}
+
+
+h1{
+  font-family: "Rubik One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+
+  color: #FF6B00;
+
+}
